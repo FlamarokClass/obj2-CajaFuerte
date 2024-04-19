@@ -21,7 +21,7 @@ public class CajaFuerteTest {
 	}
 	
 	@Test 
-	public void quealAbrirSeAbra() {
+	public void queAlAbrirSeAbra() {
 		CajaFuerte caja = new CajaFuerte();
 		caja.cerrar();
 		caja.abrir();

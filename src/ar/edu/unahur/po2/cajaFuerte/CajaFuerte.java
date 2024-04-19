@@ -17,8 +17,12 @@ public class CajaFuerte {
 	}
 	
 	public void abrirConClave(Integer miClave) {
-		if(this.clave == miClave) {
+		if(this.clave.equals(miClave)) {
 			this.abrir();
-		}else {this.cerrar();}
+		}
+	}
+	
+	public void configurarContraseña(Integer miClave) {
+		this.clave = miClave;
 	}
 }
